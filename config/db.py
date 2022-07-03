@@ -2,7 +2,7 @@ from pymongo import MongoClient, mongo_client
 
 #conn = MongoClient()
 #this database contains 15 documents
-conn = MongoClient("mongodb+srv://anantkr:Samsungindia@mflixcluster.xasm1.mongodb.net/?retryWrites=true&w=majority")
+conn = MongoClient("mongodb+srv://anantkr:<password>@mflixcluster.xasm1.mongodb.net/?retryWrites=true&w=majority")
 
 #this connection contains COMPLETE documents
 #conn = pymongo.MongoClient("mongodb+srv://m220student:<password>@mflix.3ek6q.mongodb.net/?retryWrites=true&w=majority")
